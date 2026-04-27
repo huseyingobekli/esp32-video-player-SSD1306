@@ -73,12 +73,19 @@ you can upload with one click from  --> Platformio Tab/(your board name)/Platfor
 - Auto-Loop: Automatically restarts the video from SPIFFS.
 - Serial Debugging: Real-time status updates via Serial.
 
-## Troubleshooting
+## Troubleshooting With Project
 
 | Issue                               | Solution                                                                      |
 | ----------------------------------  | ----------------------------------------------------------------------------- |
 | "Video looping..." but screen black | before upload your code run --> `python -m platformio run --target uploadfs`  |
 | "video.bin not found!"              | Ensure video.bin exists in the data/ folder before uploading FS.              |
+
+## Troubleshooting With PlatformIO
+
+| Issue                               | Solution                                                                      |
+| ----------------------------------  | ----------------------------------------------------------------------------- |
+| "ESP32-S3-N16R8" not in board list  | You have to add custom board --> <a href="https://community.platformio.org/t/how-do-you-set-up-a-new-board-esp32-s3-n16r8/32306/4">How to do</a>  |
+
 
 
 
